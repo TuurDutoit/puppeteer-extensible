@@ -35,6 +35,7 @@ function merge(dest, src) {
 
 module.exports = Object.assign(Puppeteer, {
   install,
+  merge,
   Puppeteer,
   Browser: require(`puppeteer/${folder}/Browser`).Browser,
   Connection: require(`puppeteer/${folder}/Connection`).Connection,
